@@ -1,0 +1,70 @@
+.App {
+  background-color: #4A4A4A;
+}
+
+.padre {
+  display: flex;
+  align-items: center;
+  height: 100%;
+
+}
+
+.token{
+  height: 100vh; /* 100% del viewport height (altura de la pantalla) */
+  background-color: #3f3f3f; /* Color del fondo, ajusta al color que prefieras */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.caja_texto {
+  background-color: #cccccc40;
+  border-color: slategrey;
+  border-radius: 30px;
+  width: 100%;
+  padding: 15px;
+  border-width: 0px;
+  margin-bottom: 20px;
+}
+
+.btnform {
+  background-color: #00796B;
+  border-color: slategrey;
+  border-radius: 30px;
+  width: 100%;
+  padding: 15px;
+  border-width: 0px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* Ajusta la altura según sea necesario */
+}
+
+.card {
+  border: 2px solid #ccc;
+  border-radius: 1.5rem;
+  padding: 40px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+
+.logo {
+  padding: 20px;
+}
+
+.div_logo {
+  text-align: "center";
+  margin-bottom: 20px;
+}
+
+.logo{
+  width: "150px";
+  height: "auto" ;
+}
